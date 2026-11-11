@@ -21,7 +21,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 # ─────────────────────────────────────────────
 # CONFIG (put these in environment variables in production)
 # ─────────────────────────────────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN")
+BOT_TOKEN = os.getenv("TOKEN")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "123456789"))  # your user ID or group ID
 DB_PATH = "tickets.db"
 
